@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <form method="post" id="signUp-form">
+        <div>
+            <h1>Письмо Санте</h1>
+        </div>
+        <div>
+            <p>Дорогой друг, не стесняйся и расскажи Санте о том, кто ты и о том, 
+                что ты хочешь получить на Рождество</p>
+        </div>
+        <div>
+            <label>
+                <input required type="login" placeholder="Логин">
+            </label>
+        </div>
+
+        <br>
+
+        <div>
+            <label>
+                <input required type="password" placeholder="Пароль">
+            </label>
+        </div>
+        <br>
+
+        <div>
+            <label>
+                <input required type="name" placeholder="Имя">
+            </label>
+        </div>
+        <br>
+        <div>
+            Пол
+        </div>
+        <br>
+        <div>
+            <input id="boy" type="radio" name="gender" value="Мальчик">
+            <label for="boy">Мальчик</label>
+            <input id="girl" type="radio" name="gender" value="Девочка">
+            <label for="girl">Девочка</label>
+        </div>
+        <br>
+        <div>
+            День рождения:
+            <input type="date" id="birth_date" name="birthDay"
+               value="дд.мм.гггг">
+        </div>
+        <br>
+        <div>
+            <select name="cities" id="city-select">
+                <option value="Sankt-Peterburg">Санкт-Петербург</option>
+                <option value="Kyiv">Киев</option>
+                <option value="Berlin">Берлин</option>
+            </select>
+        </div>
+        <br>
+    </form>
+    
+</body>
+</html>
